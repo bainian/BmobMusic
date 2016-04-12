@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shannon.bmobmusic">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ui.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:screenOrientation="portrait" android:name=".ui.TransferActivity" android:label="下载管理"/>
+        <activity android:screenOrientation="portrait" android:name=".ui.RegistActivity" android:label="注册"/>
+        <activity android:screenOrientation="portrait" android:name=".ui.MainActivity" />
+        <activity android:screenOrientation="portrait" android:name=".ui.PlayActivity" />
+        <activity android:screenOrientation="portrait" android:name=".ui.LoginActivity" android:label="登录"/>
+        <activity android:screenOrientation="portrait" android:name=".ui.UserActivity" android:label="信息修改"/>
+        <activity android:screenOrientation="portrait" android:name=".ui.AboutActivity" android:label="关于"/>
+        <activity android:screenOrientation="portrait" android:name=".ui.FeedbackActivity" android:label="反馈"/>
+
+
+        <service
+            android:name=".service.PlayService"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

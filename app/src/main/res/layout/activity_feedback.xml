@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.shannon.bmobmusic.ui.FeedbackActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_marginBottom="10dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tl_custom"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        />
+
+
+
+    <EditText
+        android:gravity="left"
+        android:padding="15dp"
+        android:hint="此处可以填写您的意见和反馈。"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/drawable_login"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:hint="联系方式"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/font_white"
+        android:background="@drawable/btn_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"/>
+
+
+
+
+
+</LinearLayout>

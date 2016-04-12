@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shannon.bmobmusic.ui.TransferActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_marginBottom="10dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tl_custom"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        >
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:padding="14dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:drawablePadding="8dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:drawableLeft="@mipmap/music_btn_start"
+            android:text="全部开始"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:paddingLeft="32dp"
+            android:textSize="20sp"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:drawableLeft="@mipmap/music_btn_pause"
+            android:text="全部暂停"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/at_lv_down"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+
+
+
+</LinearLayout>

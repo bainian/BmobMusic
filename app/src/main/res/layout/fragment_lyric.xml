@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <com.example.shannon.bmobmusic.view.LrcView
+        xmlns:lrc="http://schemas.android.com/apk/res/com.example.shannon.bmobmusic"
+        android:id="@+id/fl_lrc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        lrc:textSize="18sp"
+        lrc:normalTextColor="@android:color/white"
+        lrc:currentTextColor="@color/colorAccent"
+        lrc:dividerHeight="20dp"
+        lrc:rows="9"
+        android:layout_weight="0.54" />
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context="com.example.shannon.bmobmusic.ui.LoginActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_marginBottom="10dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tl_custom"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        />
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        style="@style/LogTextStyle"
+        android:layout_marginTop="30dp"
+        android:text="BMPlayer"/>
+
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/drawable_login"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+        <EditText
+            android:id="@+id/al_et_username"
+            style="@style/EditTextStyle"
+            android:drawableLeft="@mipmap/login_icn_account"
+            android:hint="用户名" />
+
+
+        <LinearLayout
+            android:background="@color/font_black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/al_et_password"
+            style="@style/EditTextStyle"
+            android:drawableLeft="@mipmap/login_icn_password"
+            android:hint="密码" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        style="@style/ButtonStyle"
+        android:id="@+id/al_btn_login"
+        android:layout_marginTop="50dp"
+        android:text="登录"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_alignParentBottom="true"
+            android:stretchColumns="0,1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView
+                    android:padding="8dp"
+                    android:id="@+id/al_tv_forgetp"
+                    android:textSize="18sp"
+                    android:text="忘记密码?"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/al_tv_regist"
+                    android:padding="8dp"
+                    android:textSize="18sp"
+                    android:gravity="end"
+                    android:text="注册"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+            
+
+            
+        </TableLayout>
+        
+    </RelativeLayout>
+
+
+
+</LinearLayout>

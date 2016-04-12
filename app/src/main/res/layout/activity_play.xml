@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:background="@drawable/drawable_rectangle_top"
+        android:layout_alignParentTop="true"
+        android:id="@+id/amp_ll_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="10dp"
+            android:id="@+id/amp_iv_back"
+            android:src="@mipmap/back"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+
+
+        <TextView
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:id="@+id/amp_tv_music_name"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:padding="8dp"
+            android:text="歌曲名"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:id="@+id/amp_tv_singer"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:padding="8dp"
+            android:text="歌手名"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/amp_iv_emoj"
+                android:padding="10dp"
+                android:layout_toLeftOf="@+id/amp_iv_list"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <ImageView
+                android:visibility="invisible"
+                android:id="@+id/amp_iv_list"
+                android:padding="14dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/music_icn_more"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/amp_ll_title"
+        android:layout_above="@+id/amp_ll_action"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v4.view.ViewPager
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:id="@+id/amp_vp_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/amp_ll_action1"
+            android:layout_width="match_parent"
+            android:layout_height="72dp">
+
+            <ImageView
+                android:id="@+id/amp_iv_like"
+                android:src="@mipmap/play_icn_love_prs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/amp_iv_download"
+                android:src="@mipmap/play_icn_dld_prs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/amp_content"
+                android:src="@mipmap/play_icn_cmt_prs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/amp_ll_status"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <SeekBar
+                android:id="@+id/amp_acs_sb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/amp_tv_ctime"
+                    android:padding="8dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/colorAccent"
+                    android:text="00:00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/amp_tv_atime"
+                    android:padding="8dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/colorAccent"
+                    android:text="02:34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:id="@+id/amp_ll_action"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+
+        <ImageView
+            android:id="@+id/amp_iv_random"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:src="@mipmap/random"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+
+        <ImageView
+            android:id="@+id/amp_iv_pre"
+            android:layout_weight="1"
+            android:layout_marginBottom="4dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@mipmap/play_pre" />
+
+        <ImageView
+            android:id="@+id/amp_iv_play"
+            android:layout_weight="1"
+            android:layout_marginBottom="2dp"
+            android:src="@mipmap/play_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/amp_iv_next"
+            android:layout_weight="1"
+            android:layout_marginBottom="2dp"
+            android:src="@mipmap/play_next"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+
+        <ImageView
+            android:id="@+id/amp_iv_loop"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:src="@mipmap/loop_red"
+            android:layout_width="38dp"
+            android:layout_height="38dp" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

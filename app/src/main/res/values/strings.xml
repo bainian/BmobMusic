@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BmobMusic</string>
+    <string name="about">\n         数  据  库：Bmob\n         榜单来源：网易云音乐\n         歌词来源：中文歌词库\n\n         本应用为学习时开发的项目，  使\n用Bmob提供的云端数据库， 服务端的\n业务逻辑全在客户端完成。其中部分素\n材来源于网易云音乐Android客户端。\n\n注：如果上述服务端发生变化，本应用的某些网络功能将无法正常使用。</string>
+</resources>
