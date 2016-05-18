@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shannon.bmobmusic.ui.UserActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_marginBottom="10dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tl_custom"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        >
+    </android.support.v7.widget.Toolbar>
+
+    <TableLayout
+        android:background="@drawable/drawable_login"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0,1"
+        android:stretchColumns="0,1"
+        >
+
+
+
+
+        <TableRow >
+
+            <TextView
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:text="头像"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                />
+
+            <ImageView
+                android:id="@+id/au_iv_img"
+                android:padding="6dp"
+                android:src="@mipmap/live_head_passerby"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:padding="12dp"
+                android:textSize="18sp"
+                android:text="帐号"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+
+            <TextView
+                android:id="@+id/au_tv_username"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:text="获取失败"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+
+        </TableRow>
+
+
+
+        <TableRow android:padding="4dp" >
+
+
+            <TextView
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:text="昵称"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+
+            <TextView
+                android:id="@+id/au_tv_name"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:text="未设置"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+
+        </TableRow>
+
+
+
+        <TableRow android:padding="4dp">
+
+
+            <TextView
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:text="性别"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+
+            <TextView
+                android:id="@+id/au_tv_sex"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:text="未设置"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+
+        </TableRow>
+
+        <TableRow android:padding="4dp" >
+
+
+            <TextView
+                android:padding="10dp"
+                android:text="签名"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+
+            <TextView
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:id="@+id/au_tv_title"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:text="未设置"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+
+        </TableRow>
+
+        <TableRow android:padding="4dp">
+
+
+            <TextView
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:text="自我描述:"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/au_tv_describle"
+                android:padding="12dp"
+                android:textSize="18sp"
+                android:text="点击添加自我描述"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <Button
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/font_white"
+        android:background="@drawable/btn_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="密码修改"/>
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+

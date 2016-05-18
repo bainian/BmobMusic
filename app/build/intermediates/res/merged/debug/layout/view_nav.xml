@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:background="@mipmap/index_daily_ban1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="220dp">
+
+
+
+    <TextView
+        android:padding="8dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/drawable_bg_prim_tran"
+        android:layout_centerVertical="true"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorAccent"
+        android:text="立即登录"
+        android:id="@+id/vn_tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:layout_above="@+id/vn_text"
+        android:id="@+id/vn_ll_info"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@mipmap/live_icn_crown"
+            android:padding="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentTop="true"
+            android:src="@mipmap/live_head_passerby"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/va_user_img" />
+
+
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@color/font_white"
+                android:id="@+id/vn_tv_name"
+                android:text="未设置"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@color/font_white"
+        android:text="选我所爱，听我所选"
+        android:padding="24dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vn_text">
+
+    </TextView>
+
+
+
+
+</RelativeLayout>

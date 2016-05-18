@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/ar_rl_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:float="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_marginBottom="10dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tl_custom"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        >
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <TextView
+        android:layout_below="@id/tl_custom"
+        android:layout_marginTop="20dp"
+        style="@style/LogTextStyle"
+        android:id="@+id/ar_tv_logo"
+        android:text="注 册" />
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/drawable_login"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ar_tv_logo"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+
+
+
+
+
+        <EditText
+            android:id="@+id/ar_et_username"
+            android:drawableLeft="@mipmap/login_icn_account"
+            style="@style/EditTextStyle"
+            android:hint="用户名" />
+
+        <LinearLayout
+            android:background="@color/font_black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+
+        <EditText
+            android:id="@+id/ar_et_email"
+            android:drawableLeft="@mipmap/login_icn_mail"
+            style="@style/EditTextStyle"
+            android:hint="邮箱" />
+
+        <LinearLayout
+            android:background="@color/font_black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/ar_et_password"
+            android:drawableLeft="@mipmap/login_icn_password"
+            style="@style/EditTextStyle"
+            android:hint="密码" />
+
+        <LinearLayout
+            android:background="@color/font_black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/ar_et_passwordc"
+            android:drawableLeft="@mipmap/login_icn_password"
+            style="@style/EditTextStyle"
+            android:hint="确认密码" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/ar_btn_regist"
+        android:layout_marginTop="40dp"
+        style="@style/ButtonStyle"
+        android:text="注册"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/font_padding"
+            android:text="已注册用户？"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/font_size" />
+        <TextView
+            android:id="@+id/ar_tv_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/font_padding"
+            android:text="登录"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/font_size" />
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

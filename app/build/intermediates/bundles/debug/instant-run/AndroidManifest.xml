@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shannon.bmobmusic"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <application
+        name="com.example.shannon.bmobmusic.MyApplication"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.shannon.bmobmusic.ui.SplashActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.shannon.bmobmusic.ui.TransferActivity"
+            android:label="下载管理"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.shannon.bmobmusic.ui.RegistActivity"
+            android:label="注册"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.shannon.bmobmusic.ui.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.shannon.bmobmusic.ui.PlayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.shannon.bmobmusic.ui.LoginActivity"
+            android:label="登录"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.shannon.bmobmusic.ui.UserActivity"
+            android:label="信息修改"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.shannon.bmobmusic.ui.AboutActivity"
+            android:label="关于"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.shannon.bmobmusic.ui.FeedbackActivity"
+            android:label="反馈"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.example.shannon.bmobmusic.service.PlayService"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -911,9 +911,6 @@ public class PlayActivity extends BaseActivity implements View.OnClickListener,S
                                                 });
 
 
-
-
-
                                             }
 
 
@@ -944,10 +941,6 @@ public class PlayActivity extends BaseActivity implements View.OnClickListener,S
 
                         }
                     });
-
-
-
-
 
                 }else{
 
@@ -1029,9 +1022,6 @@ public class PlayActivity extends BaseActivity implements View.OnClickListener,S
                                         });
 
 
-
-
-
                                     }
 
                                     @Override
@@ -1039,8 +1029,6 @@ public class PlayActivity extends BaseActivity implements View.OnClickListener,S
                                         Toast.makeText(PlayActivity.this , "音乐信息添加异常",Toast.LENGTH_SHORT).show();
                                     }
                                 });
-
-
 
                             }
 
@@ -1077,9 +1065,6 @@ public class PlayActivity extends BaseActivity implements View.OnClickListener,S
                                     });
 
 
-
-
-
                                 }
 
                                 @Override
@@ -1094,10 +1079,6 @@ public class PlayActivity extends BaseActivity implements View.OnClickListener,S
                     });
 
 
-
-
-
-
                 }
 
 
@@ -1105,14 +1086,6 @@ public class PlayActivity extends BaseActivity implements View.OnClickListener,S
 
                 System.out.println("当前的搜藏按钮还没有处理过");
             }
-
-
-
-
-
-
-
-
 
 
 

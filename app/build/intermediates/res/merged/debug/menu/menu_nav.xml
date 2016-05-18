@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:title="消息" android:id="@+id/mn_message" android:icon="@mipmap/lay_icn_ring"></item>
+        <item android:title="下载" android:id="@+id/mn_download" android:icon="@mipmap/lay_icn_dld"></item>
+
+        <item android:title="Menu">
+
+            <menu>
+                <item android:title="反馈" android:id="@+id/mn_feedback" android:icon="@mipmap/topmenu_icn_night"></item>
+                <item android:title="关于" android:id="@+id/mn_about" android:icon="@mipmap/topmenu_icn_level" ></item>
+                <item android:title="注销" android:id="@+id/mn_logout" android:icon="@mipmap/topmenu_icn_time"></item>
+                <item android:title="退出" android:id="@+id/mn_back" android:icon="@mipmap/topmenu_icn_exit"></item>
+
+            </menu>
+
+        </item>
+    </group>
+
+
+
+
+</menu>
