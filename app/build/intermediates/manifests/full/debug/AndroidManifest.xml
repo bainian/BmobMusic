@@ -15,6 +15,22 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_LOGS" />
 
+    <!-- 情绪识别权限列表 -->
+    <!-- 开启摄像头 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <!-- 设置录音 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 网络状态 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- sd 卡获得写的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:name="com.example.shannon.bmobmusic.MyApplication"
         android:allowBackup="true"
@@ -22,6 +38,22 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="EMOKIT_AID"
+            android:value="100389" />
+        <meta-data
+            android:name="EMOKIT_KEY"
+            android:value="3d1cfb193122748af25de24e609ac57f" />
+        <meta-data
+            android:name="EMOKIT_RecordTaskAnimation"
+            android:value="1" />
+
+        <activity
+            android:name="com.emokit.sdk.heartrate.FacedetectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.emokit.sdk.senseface.CameraActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.shannon.bmobmusic.ui.SplashActivity"
             android:screenOrientation="portrait" >

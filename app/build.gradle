@@ -49,5 +49,6 @@ dependencies {
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
     compile 'org.jsoup:jsoup:1.8.3'
     compile 'org.xutils:xutils:3.3.18'
-
+    compile files('lib/emokitsdk4.3.1.jar')
+    compile 'com.google.code.gson:gson:2.6.2'
 }

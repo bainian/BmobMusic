@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_toolbar.xml",
-        "source": "D:\\AndroidStudioProjects\\BmobMusic\\app\\src\\main\\res\\menu\\menu_toolbar.xml"
+        "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_toolbar.xml",
+        "source": "D:\\StudioProjects\\BmobMusic\\app\\src\\main\\res\\menu\\menu_toolbar.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_nav.xml",
-        "source": "D:\\AndroidStudioProjects\\BmobMusic\\app\\src\\main\\res\\menu\\menu_nav.xml"
+        "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_nav.xml",
+        "source": "D:\\StudioProjects\\BmobMusic\\app\\src\\main\\res\\menu\\menu_nav.xml"
     }
 ]
