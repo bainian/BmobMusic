@@ -2582,8 +2582,8 @@ containing a value of this type.
         public static final int fab_expand_menu_button=0x7f0c0004;
         public static final int fab_label=0x7f0c0005;
         public static final int fc_iv_cover=0x7f0c00aa;
+        public static final int ff_btn_test=0x7f0c00ab;
         public static final int ff_lv_recommened=0x7f0c00ac;
-        public static final int ff_tv_test=0x7f0c00ab;
         public static final int fh_lv_music_info=0x7f0c00ad;
         public static final int fill=0x7f0c0030;
         public static final int fill_horizontal=0x7f0c0031;

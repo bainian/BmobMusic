@@ -2,151 +2,151 @@
 <items version="2" >
 
     <item
-        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\org.xutils\xutils\3.3.18\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="6f94d9336b3c619e6fc309b79785dbf56949b813">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\org.xutils-xutils-3.3.18_8eda43e9410e0c011b54733d01f3814f42dfed13.jar" />
-    </item>
-    <item
-        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_06741700de995ef146649f620b762f69b8b9cb07.jar" />
-    </item>
-    <item
-        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_60aca26088c1fd7d10404a14b566528d3311740a.jar" />
-    </item>
-    <item
-        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_1fe17cd92c2df754623c2eca4715596cd961a0e4.jar" />
-    </item>
-    <item
         jar="D:\StudioProjects\BmobMusic\app\lib\emokitsdk4.3.1.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="de5e43d93c41b2f34ba9ffbd45f8bdce599c9150">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\emokitsdk4.3.1_4b0c8578e4bfd7cadd8949355a549817fa5d91c9.jar" />
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\2\emokitsdk4.3.1_4b0c8578e4bfd7cadd8949355a549817fa5d91c9\classes.dex" />
     </item>
     <item
         jar="C:\Users\master\.gradle\caches\modules-2\files-2.1\cn.bmob.android\bmob-sdk\3.4.5\44e559d18fd5a4826b0a4c0354308213e4f658a2\bmob-sdk-3.4.5.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="44e559d18fd5a4826b0a4c0354308213e4f658a2">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\bmob-sdk-3.4.5_c18f92fd21362abbfe4f7837aac6710e84175420.jar" />
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\bmob-sdk-3.4.5_c18f92fd21362abbfe4f7837aac6710e84175420\classes.dex" />
     </item>
     <item
         jar="D:\StudioProjects\BmobMusic\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="fd10b28dbd577ffda5c4944c88d8b129fb41a0f4">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_0b46419296a4ca52f62084f21b142b20dfa43e0f.jar" />
+        sha1="d91d397d4e07385e2dead4cb3e35a27aa9ca4416">
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0b46419296a4ca52f62084f21b142b20dfa43e0f\classes.dex" />
     </item>
     <item
         jar="C:\Users\master\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="40340c0748190fe897baf7bffbc1b282734294e5">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\okhttp-2.4.0_a6977c4262d9ec34538d14fd29e40def9e129049.jar" />
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.4.0_a6977c4262d9ec34538d14fd29e40def9e129049\classes.dex" />
     </item>
     <item
         jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_12e5396f1ac8de17622438be5d64ec5e56bd8188.jar" />
-    </item>
-    <item
-        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.wrapp.floatlabelededittext\library\0.0.6\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="0db8e1dc3097c0db8425b339e5e720ef6e918400">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\com.wrapp.floatlabelededittext-library-0.0.6_bee32a71c239ce264933b1dc8cd1e3f82cedb051.jar" />
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_12e5396f1ac8de17622438be5d64ec5e56bd8188\classes.dex" />
     </item>
     <item
         jar="C:\Users\master\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_25eff635dda352cb7ba43ada86bdcba37068c3f1.jar" />
-    </item>
-    <item
-        jar="C:\Users\master\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.4.0\5b72bf48563ea8410e650de14aa33ff69a3e8c35\okio-1.4.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\okio-1.4.0_159403c2664617756d42930b45c0c960b3761824.jar" />
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\universal-image-loader-1.9.5_25eff635dda352cb7ba43ada86bdcba37068c3f1\classes.dex" />
     </item>
     <item
         jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.10.1\jars\classes.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\com.getbase-floatingactionbutton-1.10.1_4dca6eb63095577f7da6cbc4987fad49f86f631e.jar" />
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.getbase-floatingactionbutton-1.10.1_4dca6eb63095577f7da6cbc4987fad49f86f631e\classes.dex" />
     </item>
     <item
         jar="C:\Users\master\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="f1bc476cc167b18e66c297df599b2377131a8947">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\gson-2.6.2_ded380d9aab31046f14fa157c765d97563df63c7.jar" />
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_ded380d9aab31046f14fa157c765d97563df63c7\classes.dex" />
     </item>
     <item
         jar="D:\Software\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_4fa220eac5d3f4169cee646cd2face4f9f9fc540.jar" />
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_4fa220eac5d3f4169cee646cd2face4f9f9fc540\classes.dex" />
     </item>
     <item
         jar="C:\Users\master\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\library-2.4.0_258570a060391e421ac676a56d47f8e7dd202fcf.jar" />
-    </item>
-    <item
-        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_5d5b4ff58662e7e7d8580ab22f5adeed87d0ed56.jar" />
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_258570a060391e421ac676a56d47f8e7dd202fcf\classes.dex" />
     </item>
     <item
         jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_c7e9088bf28a866f0cc9d9c99ccfd0dd59c7f626.jar" />
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.1_c7e9088bf28a866f0cc9d9c99ccfd0dd59c7f626\classes.dex" />
+    </item>
+    <item
+        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="88e9983dd628ebb24d9e9c2346b642599f4aff38">
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0fa0a1023026fde74312f1f88f508d95c4d96b6e\classes.dex" />
+    </item>
+    <item
+        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\org.xutils\xutils\3.3.18\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6f94d9336b3c619e6fc309b79785dbf56949b813">
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\org.xutils-xutils-3.3.18_8eda43e9410e0c011b54733d01f3814f42dfed13\classes.dex" />
+    </item>
+    <item
+        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_06741700de995ef146649f620b762f69b8b9cb07\classes.dex" />
+    </item>
+    <item
+        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_1fe17cd92c2df754623c2eca4715596cd961a0e4\classes.dex" />
+    </item>
+    <item
+        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_60aca26088c1fd7d10404a14b566528d3311740a\classes.dex" />
+    </item>
+    <item
+        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.wrapp.floatlabelededittext\library\0.0.6\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0db8e1dc3097c0db8425b339e5e720ef6e918400">
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.wrapp.floatlabelededittext-library-0.0.6_bee32a71c239ce264933b1dc8cd1e3f82cedb051\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\master\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.4.0\5b72bf48563ea8410e650de14aa33ff69a3e8c35\okio-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.4.0_159403c2664617756d42930b45c0c960b3761824\classes.dex" />
+    </item>
+    <item
+        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_5d5b4ff58662e7e7d8580ab22f5adeed87d0ed56\classes.dex" />
     </item>
     <item
         jar="C:\Users\master\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.8.3\65fd012581ded67bc20945d85c32b4598c3a9cf1\jsoup-1.8.3.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="65fd012581ded67bc20945d85c32b4598c3a9cf1">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\jsoup-1.8.3_975068ad671324fad1519b31ce80207fb7e97c69.jar" />
-    </item>
-    <item
-        jar="D:\StudioProjects\BmobMusic\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="9a48b723ccd762cde21827f876099be01ae311fd">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\instant-run_0fa0a1023026fde74312f1f88f508d95c4d96b6e.jar" />
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsoup-1.8.3_975068ad671324fad1519b31ce80207fb7e97c69\classes.dex" />
     </item>
     <item
         jar="D:\StudioProjects\BmobMusic\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_94d6c9514002a97020b5442cdfdfff987318377b.jar" />
+        <dex dex="D:\StudioProjects\BmobMusic\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_94d6c9514002a97020b5442cdfdfff987318377b\classes.dex" />
     </item>
 
 </items>

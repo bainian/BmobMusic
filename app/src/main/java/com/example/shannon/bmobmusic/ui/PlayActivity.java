@@ -115,6 +115,28 @@ public class PlayActivity extends BaseActivity implements View.OnClickListener,S
         amp_iv_loop = (ImageView) findViewById(R.id.amp_iv_loop);
 
 
+
+        int mode = PlayService.playState.getMode();
+
+        if(mode == PlayService.MODE_ORDER){
+
+
+            //当前的模式为随机播放则需要更新状态
+            amp_iv_random.setImageResource(R.mipmap.random);
+            amp_iv_loop.setImageResource(R.mipmap.loop_red);
+            amp_iv_random.setTag(false);
+            amp_iv_loop.setTag(true);
+        }else{
+
+            amp_iv_random.setImageResource(R.mipmap.random_red);
+            amp_iv_loop.setImageResource(R.mipmap.loop);
+
+            amp_iv_random.setTag(true);
+            amp_iv_loop.setTag(false);
+
+        }
+
+
     }
 
     //刷新操作
@@ -207,37 +229,30 @@ public class PlayActivity extends BaseActivity implements View.OnClickListener,S
         }
 
 
+
+        //后台的状态
         int mode = PlayService.playState.getMode();
+        //界面的状态
+        boolean mode_play = (boolean) amp_iv_loop.getTag();
 
         if(mode == PlayService.MODE_ORDER){
 
-            //如果当前的播放模式为顺序播放
-            boolean mode_play = (boolean) amp_iv_loop.getTag();
-            if(mode_play == false){
 
-                //当前的模式为随机播放则需要更新状态
-                amp_iv_random.setImageResource(R.mipmap.random);
-                amp_iv_loop.setImageResource(R.mipmap.loop_red);
 
-                amp_iv_random.setTag(false);
-                amp_iv_loop.setTag(true);
-
-            }
+            amp_iv_random.setImageResource(R.mipmap.random);
+            amp_iv_loop.setImageResource(R.mipmap.loop_red);
+            System.out.println("刷新时设置顺序播放");
+            amp_iv_random.setTag(false);
+            amp_iv_loop.setTag(true);
 
         }else{
 
 
-            //如果当前的播放模式为顺序播放
-            boolean mode_play = (boolean) amp_iv_random.getTag();
-            if(mode_play == false){
+            amp_iv_random.setImageResource(R.mipmap.random_red);
+            amp_iv_loop.setImageResource(R.mipmap.loop);
 
-                amp_iv_random.setImageResource(R.mipmap.random_red);
-                amp_iv_loop.setImageResource(R.mipmap.loop);
-
-                amp_iv_random.setTag(true);
-                amp_iv_loop.setTag(false);
-
-            }
+            amp_iv_random.setTag(true);
+            amp_iv_loop.setTag(false);
 
         }
 
@@ -353,10 +368,7 @@ public class PlayActivity extends BaseActivity implements View.OnClickListener,S
 
 
 
-
         }
-
-
 
 
 
@@ -369,8 +381,6 @@ public class PlayActivity extends BaseActivity implements View.OnClickListener,S
 
 
     public void loadData() {
-
-
 
 
 

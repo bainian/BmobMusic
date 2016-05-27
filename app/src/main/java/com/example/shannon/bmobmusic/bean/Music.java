@@ -241,6 +241,20 @@ public class Music extends BmobObject{
 
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Music{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", artist='" + artist + '\'' +
+                ", duration=" + duration +
+                ", path_img='" + path_img + '\'' +
+                ", size=" + size +
+                ", path_music='" + path_music + '\'' +
+                ", type=" + type +
+                ", album='" + album + '\'' +
+                ", id_album=" + id_album +
+                ", likes=" + likes +
+                '}';
+    }
 }

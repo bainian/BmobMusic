@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_search_view.xml"
-    },
-    {
         "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
@@ -16,24 +16,24 @@
         "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_nav.xml",
         "source": "D:\\StudioProjects\\BmobMusic\\app\\src\\main\\res\\layout\\view_nav.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
         "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
         "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -76,12 +76,12 @@
         "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_item_music.xml",
-        "source": "D:\\StudioProjects\\BmobMusic\\app\\src\\main\\res\\layout\\view_item_music.xml"
-    },
-    {
         "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_item_music.xml",
+        "source": "D:\\StudioProjects\\BmobMusic\\app\\src\\main\\res\\layout\\view_item_music.xml"
     },
     {
         "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",

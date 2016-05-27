@@ -530,7 +530,7 @@ public class MainActivity extends BaseActivity{
                 break;
 
             case R.id.va_user_img:
-                startActivity(new Intent(this , UserActivity.class));
+                //startActivity(new Intent(this , UserActivity.class));
                 break;
 
             case R.id.vn_tv_login:

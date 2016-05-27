@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86,armeabi-v7a"
-    api-level="19"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxxhdpi"
     format="7"
-    timestamp="27872929423867" >
+    timestamp="18496128449666" >
 
     <task
         name="javac"
-        duration="2630" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1828" />
+        duration="0" />
     <task
         name="verifier"
-        duration="450" />
+        duration="0" />
 
-    <artifact
-        location="D:\StudioProjects\BmobMusic\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="27872929423867" >
-        <artifact
-            location="D:\StudioProjects\BmobMusic\app\build\outputs\apk\app-debug.apk"
-            type="MAIN" />
-    </build>
+    <build timestamp="18496128449666" />
 
 </instant-run>

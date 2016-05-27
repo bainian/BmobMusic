@@ -40,12 +40,12 @@
         "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\drawable_rectangle_pressed.xml",
-        "source": "D:\\StudioProjects\\BmobMusic\\app\\src\\main\\res\\drawable\\drawable_rectangle_pressed.xml"
-    },
-    {
         "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\drawable_rectangle_pressed.xml",
+        "source": "D:\\StudioProjects\\BmobMusic\\app\\src\\main\\res\\drawable\\drawable_rectangle_pressed.xml"
     },
     {
         "merged": "D:\\StudioProjects\\BmobMusic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",

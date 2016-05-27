@@ -209,7 +209,7 @@
             android:id="@+id/amp_iv_loop"
             android:layout_weight="1"
             android:layout_margin="8dp"
-            android:src="@mipmap/loop_red"
+            android:src="@mipmap/loop"
             android:layout_width="38dp"
             android:layout_height="38dp" />
 

@@ -729,8 +729,8 @@ int id expanded_menu 0x7f0c0054
 int id fab_expand_menu_button 0x7f0c0004
 int id fab_label 0x7f0c0005
 int id fc_iv_cover 0x7f0c00aa
+int id ff_btn_test 0x7f0c00ab
 int id ff_lv_recommened 0x7f0c00ac
-int id ff_tv_test 0x7f0c00ab
 int id fh_lv_music_info 0x7f0c00ad
 int id fill 0x7f0c0030
 int id fill_horizontal 0x7f0c0031
